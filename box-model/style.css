@@ -1,0 +1,33 @@
+*{
+    box-sizing:border-box;
+}
+
+body {
+    margin:0;
+    background-color:papayawhip
+}
+
+.content {
+    background-color:silver;
+    color:firebrick;
+    width:200px;
+    height:200px;
+    padding: 30px;
+    border: 10px solid cadetblue;
+    margin: 50px auto;
+    font-family: 'Space Mono', monospace;
+    font-size: 100px;
+
+}
+
+.border {
+    background-color:silver;
+    color:firebrick;
+    width:200px;
+    height:200px;
+    padding: 30px;
+    border: 10px solid cadetblue;
+    margin:50px;
+    box-sizing:border-box;
+
+}
