@@ -1,8 +1,48 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
 body {
-   background-color: rgba(76, 28, 28, 0.683);
+   background-color:rgb(255, 255, 255);
    background-image: -moz-element("dirt.gif");
 }
 body {
     background-repeat: repeat-y;
-    background-image: url("../images/dirtgif.gif");
+    background-image: url();
+}
+
+.box {
+    background-image: url("../images/dirt2.png");
+    background-size:cover;
+    width: 140px;;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 35px;
+}
+.list {
+    margin-left: ;
+}
+
+.fixed{
+    position:fixed;
+    background:rgba(90, 55, 43, 0.699);
+    bottom:520px;
+    right:20px;
+    border-width: 1px;
+    border-color: burlywood;
+    width: fit-content;
+    
+}
+.home {
+    position:relative;
+    bottom: 10px; 
+}
+
+.grass {
+   width: 2in;
+   height: 4in;
+   background-repeat: repeat-y;
+margin-top: 30%;
+}
+.strong{
+    text-shadow: 2px 2px;
 }
