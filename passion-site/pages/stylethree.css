@@ -1,0 +1,8 @@
+body {
+   background-color: rgba(76, 28, 28, 0.683);
+   background-image: -moz-element("dirt.gif");
+}
+body {
+    background-repeat: repeat-y;
+    background-image: url("../images/dirtgif.gif");
+}

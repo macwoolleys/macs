@@ -1,0 +1,45 @@
+* {
+    background-color: rgb(100, 64, 64);
+    font-family: 'Dosis', sans-serif; color: white;
+}
+
+.box {
+    background-image: url("../images/dirt2.png");
+    background-size:cover;
+    width: 200px;;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 35px;
+}
+.box2 {
+    background-image: url("../images/dirt3.png");
+    background-size:cover;
+    width: 200px;;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 35px;
+}
+.box3 {
+    background-image: url("../images/dirt4.png");
+    background-size:cover;
+    width: 200px;;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 35px;
+}
+.box4 {
+    background-image: url("../images/dirt6.png");
+    background-size:cover;
+    width: 200px;;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 35px;
+}
+.a {
+    font-size: 100px;
+    font-family: 'Dosis', sans-serif; text-decoration:underline ;
+}
+
+.ex1 {
+    width:30%;
+}
