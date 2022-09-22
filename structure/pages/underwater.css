@@ -4,7 +4,7 @@
 
 body {
     margin:0;
-    background-image: url(../images/snow.gif);
+    background-image: url(../images/underwater.gif);
 
 }
 
@@ -34,8 +34,8 @@ body {
     
 }
 
-.back {
+.seal {
     position: absolute;
-    top: 30%;
-    right: 58%;
+    top: 150px;
+    right: 400px;
 }
