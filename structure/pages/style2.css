@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-image: url(../images/snow.gif);
+
+}
+
+.jump {
+    position:absolute;
+    bottom: 3mm;
+    right: 400px;
+}
+.main-container {
+    background:rgb(255, 255, 255);
+    width:100vw;
+    height:20vh;
+    position: absolute;
+    bottom: 0mm;
+    
+}
+
+.cave {
+    position: absolute;
+    bottom: 40mm;
+    right:680px;
+}
+
+.caveinside {
+    position: absolute;
+    align-content: center;
+    
+}
