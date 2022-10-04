@@ -341,7 +341,7 @@ body {
     width: 150px; 
     position:fixed;
     left: 50%;
-    bottom: 78%;
+    bottom: 28%;
     animation: cloud2 6s normal forwards;
     animation-delay: 70s;
     
