@@ -460,7 +460,7 @@ body {
     width: 120px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: smaller;
-    color: rgb(155, 192, 211);
+    color: rgba(237, 234, 185, 0.867);
     margin: 0 auto;
     overflow: hidden;
     box-sizing: border-box;
