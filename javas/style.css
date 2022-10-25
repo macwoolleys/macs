@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-color: azure;
+    transition: background-color .5s;
+}
+
+.dark {
+    background-color: darkgray ;
+}
+.box {
+    padding: 20px;
+    background-color: slategray;
+    color: white;
+    font-size: 20px;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    right:-300px;
+    width:300px;
+    border-left:1px solid;
+    transition: right .5s;
+
+
+
+
+}
+
+.active {
+   right:0;
+  }
+
+button {
+    padding: 10px;
+    border: 1px solid;
+    cursor: pointer;
+    background-color: brown;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+button:activate {
+    background-color: white ;
+}
+
+.obj {
+    background-color: rgb(12, 75, 25) ;
+    border:1px solid;
+    width: 100px;
+    height: 100px;
+    position:fixed;
+    bottom:40px;
+    left:40px;
+    transition: all 5s, background-color 5s;
+}
+
+.spin {
+    transform:rotate(760deg) ;
+    background-color: yellowgreen ;
+}
