@@ -3,9 +3,11 @@
 
 }
 
+
 body {
     background-color: #70b6d4;
     position:fixed;
+    cursor: crosshair;
 }
 
 .contents {
