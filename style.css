@@ -18,7 +18,7 @@ body {
 div.picture {
     width:400px;
     height:400px;
-    background-image:url('hi.jpg');
+    background-image:url('star.jpg');
     left: 600px;
     bottom: 100px;
     position:fixed;
