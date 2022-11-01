@@ -1,10 +1,28 @@
 .head {
     position: absolute;
-    left:-700px;
+
 }
 
 body {
     background-color: #70b6d4;
-    position:absolute;
-    right: -10%;
+    position:fixed;
+}
+
+.contents {
+    display: flex;
+    position: fixed;
+    left: 300px;
+    bottom: 500px;
+}
+
+div.picture {
+    width:400px;
+    height:400px;
+    background-image:url('hi.jpg');
+    left: 600px;
+    bottom: 100px;
+    position:fixed;
+    opacity: .1;
+    
+
 }
