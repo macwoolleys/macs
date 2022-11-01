@@ -1,12 +1,15 @@
 * {
     box-sizing: border-box;
+    cursor: se-resize;
 }
 
 body {
+    cursor: crosshair;
     margin:0;
     background-image: url(images/select1.png);
     background-repeat: no-repeat;
-    cursor: crosshair;
+    
+    
 }
 
 .select {
