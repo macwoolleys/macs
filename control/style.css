@@ -6,6 +6,7 @@ body {
     margin:0;
     background-image: url(images/select1.png);
     background-repeat: no-repeat;
+    cursor: crosshair;
 }
 
 .select {
