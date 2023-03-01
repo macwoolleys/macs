@@ -1,0 +1,130 @@
+html, body {
+  height: 100%;
+}
+
+* {
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0);
+  perspective: 500px;
+  font-family:monospace;
+  color: rgb(255, 255, 255);
+}
+
+.gif {
+  z-index: 5;
+  width: 150%;
+  position: fixed;
+  display: block;
+  -webkit-user-select: none;
+  background-color: hsl(0, 0%, 90%);
+  height: 40vh;
+}
+
+.bouncy {
+  z-index: 5;
+  width: 20%;
+  position: fixed;
+  display: block;
+  -webkit-user-select: none;
+  background-color: hsl(0, 0%, 90%);
+  height: 10%;
+}
+
+element.style {
+  display: block;
+  -webkit-user-select: none;
+  margin: auto;
+  background-color: hsl(0, 0%, 90%);
+  width: 100vw;
+  height: 20vh;
+}
+
+.home-link {
+position: fixed; /* Set the position to fixed */
+bottom: 10px; /* Set the distance from the bottom */
+right: 10px; /* Set the distance from the right */
+z-index: 10;
+}
+
+.home-image {
+width: 50px; /* Set the width of the image */
+height: 50px; /* Set the height of the image */
+z-index: 10;
+}
+
+.top {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -50%;
+  width: 340px;
+  height: 330px;
+  background: #222;
+}
+
+
+.this4 {
+  position: absolute;
+  z-index: 100;
+  color: blue;
+  
+  animation: slideVert 16.6s linear alternate infinite, slideHori 16.78s linear alternate infinite, colorChange 30s linear infinite;
+  animation-delay: -30s;
+}
+
+.this4:hover {
+  animation-play-state: paused;
+}
+
+
+.hide {
+  display: none;
+  color: aliceblue;
+  position: absolute; /* Set position of hide to "absolute" */
+  top: 100%; /* Position the hide div below the this4 div */
+  left: 0; /* Position the hide div at the left edge of the container */
+  z-index: 100;
+
+  animation: slideVert 16.6s linear alternate infinite, slideHori 16.78s linear alternate infinite, colorChange 30s linear infinite;
+  animation-delay: -35s;
+  animation-play-state: paused;
+}
+
+.this4:hover + .hide {
+  display: block !important; /* Add the !important declaration to force the display property */
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes slideVert {
+  from {
+    top: 4px;
+  }
+  to {
+    top: calc(100% - 54px);
+  }
+}
+@keyframes slideHori {
+  from {
+    left: 0;
+  }
+  to {
+    left: calc(100% - 95px);
+  }
+}
+
+

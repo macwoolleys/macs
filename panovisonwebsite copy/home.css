@@ -1,0 +1,351 @@
+html, body {
+  height: 100%;
+  overflow: hidden; /* Added overflow property */
+  
+}
+
+  * {
+    overflow: hidden;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    perspective: 500px;
+    font-family:monospace;
+    color: rgb(0, 0, 0);
+    cursor: grab;
+  }
+  
+  .box {
+    z-index: -100;
+    width: 92%;
+    height: 70%;
+    position: fixed;
+    top: calc(50% - 35%);
+    left: calc(50% - 46%);
+  }
+
+  .box2 {
+    z-index: -100;
+    width: 62%;
+    height: 15%;
+    position: fixed;
+    top: calc(35% - 35%);
+    left: calc(65% - 46%);
+  }
+  
+
+  .box:hover { 
+opacity: 1;
+    background-color: rgba(255, 255, 255, 0);
+    transform: scale(2, 0.5);
+
+  }
+
+  .box2:hover { 
+    opacity: 1;
+        background-color: rgba(255, 255, 255, 0);
+        transform: scale(2, 0.5);
+    
+      }
+
+  .gif {
+    z-index: 5;
+    width: 100%;
+    position: fixed;
+    display: block;
+    -webkit-user-select: none;
+    background-color: hsl(0, 0%, 90%);
+    height: 40vh;
+  }
+
+  .bouncy {
+    z-index: 5;
+    width: 20%;
+    position: fixed;
+    display: block;
+    -webkit-user-select: none;
+    background-color: hsl(0, 0%, 0%);
+    height: 10%;
+  }
+
+  .bouncy2 {
+    z-index: 5;
+    width: 20%;
+    position: fixed;
+    display: block;
+    -webkit-user-select: none;
+    height: 10%;
+    font-size: larger;
+  }
+
+  .bouncy2:hover {
+    color: blue;
+  }
+
+element.style {
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    background-color: hsl(0, 0%, 90%);
+    width: 100vw;
+    height: 20vh;
+}
+
+.home-link {
+  position: fixed; /* Set the position to fixed */
+  bottom: 10px; /* Set the distance from the bottom */
+  right: 10px; /* Set the distance from the right */
+  z-index: 10;
+}
+
+.home-image {
+  width: 50px; /* Set the width of the image */
+  height: 50px; /* Set the height of the image */
+  z-index: 10;
+}
+  
+  .top {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -50%;
+    width: 340px;
+    height: 330px;
+    background: #222;
+  }
+  
+  .this3 {
+    position: absolute;
+    animation: slideVert 7.77s linear alternate-reverse infinite, slideHori 14s linear alternate-reverse infinite, colorChange 30s linear infinite;
+    animation-delay: -2s;
+  }
+
+.this41 {
+  position: absolute;
+  animation: slideVert 13.6s linear alternate-reverse infinite, slideHori 5.78s linear alternate-reverse infinite, colorChange 30s linear infinite;
+  animation-delay: -5s;
+}
+
+  .this4 {
+    position: absolute;
+    
+    animation: slideVert 10.6s linear alternate infinite, slideHori 10.78s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -5s;
+  }
+
+  .this5 {
+    position: absolute;
+  
+    
+    animation: slideVert 8.6s linear alternate infinite, slideHori 8.7s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -10s;
+
+  }
+
+  .this6 {
+    position: absolute;
+  
+    
+    animation: slideVert 5.6s linear alternate infinite, slideHori 10.78s linear alternate infinite, colorChange 30s linear infinite; 
+    animation-delay: -9s;
+  }
+
+  .this7 {
+    position: absolute;
+    
+    animation: slideVert 6.6s linear alternate infinite, slideHori 7s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -5s;
+  }
+
+  .this8 {
+    position: absolute;
+  
+    
+    animation: slideVert 5s linear alternate infinite, slideHori 8s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -30s;
+
+  }
+
+  .this9 {
+    position: absolute;
+  
+    
+    animation: slideVert 8.4s linear alternate infinite, slideHori 14.78s linear alternate infinite, colorChange 30s linear infinite; 
+    animation-delay: -25s;
+  }
+
+  .this10 {
+    position: absolute;
+    
+    animation: slideVert 19.6s linear alternate infinite, slideHori 14s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -15s;
+  }
+
+  .this11 {
+    position: absolute;
+  
+    
+    animation: slideVert 15s linear alternate infinite, slideHori 9s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -20s;
+
+  }
+
+  .this12 {
+    position: absolute;
+  
+    
+    animation: slideVert 9.4s linear alternate infinite, slideHori 10.78s linear alternate infinite, colorChange 30s linear infinite; 
+    animation-delay: -1s;
+  }
+
+  .this13 {
+    position: absolute;
+    
+    animation: slideVert 11.6s linear alternate infinite, slideHori 11s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -12s;
+  }
+
+  .this14 {
+    position: absolute;
+  
+    
+    animation: slideVert 13s linear alternate infinite, slideHori 13.55s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -3s;
+
+  }
+
+  .this15 {
+    position: absolute;
+  
+    
+    animation: slideVert 18.4s linear alternate-reverse infinite, slideHori 14.78s linear alternate-reverse infinite, colorChange 30s linear infinite; 
+    animation-delay: -5s;
+
+  
+  }
+
+  img {
+  opacity: 0.8;
+}
+
+img:hover {
+  opacity: 6.0;
+  z-index: 100;
+  background-color: white;
+}
+
+
+
+#hover-img:hover + body {
+  background-color: white;
+}
+
+
+
+.this3:hover {
+  animation-play-state: paused;
+  
+}
+.this41:hover {
+  animation-play-state: paused;
+}
+.this4:hover {
+  animation-play-state: paused;
+}
+.this5:hover {
+  animation-play-state: paused;
+}
+.this6:hover {
+  animation-play-state: paused;
+}
+.this7:hover {
+  animation-play-state: paused;
+}
+.this8:hover {
+  animation-play-state: paused;
+}
+.this9:hover {
+  animation-play-state: paused;
+}
+.this10:hover {
+  animation-play-state: paused;
+}
+.this11:hover {
+  animation-play-state: paused;
+}
+.this12:hover {
+  animation-play-state: paused;
+}
+.this13:hover {
+  animation-play-state: paused;
+}
+.this14:hover {
+  animation-play-state: paused;
+}
+.this15:hover {
+  animation-play-state: paused;
+}
+
+
+
+.start {
+  position: absolute;
+
+  
+  animation: slideVert2 10.4s linear alternate-reverse infinite, slideHori2 10.78s linear alternate-reverse infinite, colorChange 30s linear infinite; 
+  
+
+
+}
+
+.start1 {
+  background-color: #222;
+  size: 10px;
+  color: rgb(0, 0, 0);
+}
+
+
+@keyframes slideVert {
+  from {
+    top: 25%;
+  }
+  to {
+    top: calc(100vh - 30%);
+  }
+}
+
+@keyframes slideHori {
+  from {
+    left: 20%; ;
+  }
+  to {
+    left: calc(100vw - 40%);
+  }
+}
+
+
+
+@keyframes slideVert2 {
+  from {
+    top: 5%;
+  }
+  to {
+    top: calc(100vh - 90%);
+  }
+}
+
+@keyframes slideHori2 {
+  from {
+    left: 62%;
+  }
+  to {
+    left: calc(100vw - 67%);
+  }
+}
+
+  
