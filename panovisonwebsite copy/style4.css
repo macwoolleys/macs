@@ -76,7 +76,7 @@ element.style {
     color: blue;
     
     animation: slideVert 16.6s linear alternate infinite, slideHori 16.78s linear alternate infinite, colorChange 30s linear infinite;
-    animation-delay: -30s;
+    animation-delay: -70s;
   }
 
   .this4:hover {
