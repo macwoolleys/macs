@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    image-rendering: optimizeSpeed;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center using translate */
+    z-index: 3;
+
+    
+}
+.centered-text2 {
+    position: absolute;
+    top: 80%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center using translate */
+    z-index: 300;
+    font-size: xx-large;
+}
+
+.centered202 {
+  position: absolute;
+  bottom: 80%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center using translate */
+  z-index: 300;
+  font-size: xx-large;
+}
+   
+.centered-text100 {
+      position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center using translate */
+    z-index: 100;
+    opacity: 0.4;
+    
+}
+.centered-text1001 {
+    position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center using translate */
+  z-index: 10000;
+  opacity: 1;
+  
+}
+
+.centered-text1002 {
+    position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center using translate */
+  z-index: 10000;
+  opacity: .1;
+  
+}
+
+.centered-text200 {
+    position: absolute;
+    bottom: 0%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center using translate */
+    z-index: 300;
+    font-size: xx-large;
+   width: 100vw;
+   display: block;
+   text-align: center;
+}
+
+.centered2 {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center using translate */
+    z-index: 2;
+    display: block;
+    
+}
+
+.centered2 {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center using translate */
+    z-index: 2;
+    
+
+
+}
+.centered4 {
+    position: absolute;
+    top: 20%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center using translate */
+    z-index: 2;
+    font-size: x-large;
+    
+
+
+}
+
+.container1:hover {
+
+    content: url(images/44-copy-44.gif); /* no need for qoutes */
+    display: block;
+
+    
+}
+
+.centered5 {
+    position: absolute;
+    top: 80%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center using translate */
+    z-index: 2;
+    font-size: x-large;
+
+
+}
+
+
+.start {
+    position: absolute;
+  
+    
+    animation: slideVert2 10.4s linear alternate-reverse infinite, slideHori2 10.78s linear alternate-reverse infinite, colorChange 30s linear infinite; 
+    z-index: 5;
+  
+  
+  }
+  
+  .this4 {
+    position: absolute;
+ 
+    color: blue;
+    
+    animation: slideVert 19.6s linear alternate infinite, slideHori 12.78s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: 100s -30s;
+    z-index: 600;
+  }
+
+  .bouncy {
+    z-index: 600;
+    position: fixed;
+    display: block;
+    -webkit-user-select: none;
+    max-height: 10%;
+
+  }
+
+  @keyframes slideVert {
+    from {
+      top: 4px;
+    }
+    to {
+      top: calc(100% - 100px)  ;
+    }
+  }
+  @keyframes slideHori {
+    from {
+      left: 0;
+    }
+    to {
+      left: calc(100% - 100px);
+    }
+  }
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+    .popup {
+        width: 70%;
+    }
+}

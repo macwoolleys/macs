@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    padding: 0;
+    background-color: #f0f0f0; /* Background color for the body */
+    display:grid;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('images/sun.png'); /* Corrected the URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #007bff; /* Box background color */
+    margin: 10px 0; /* Vertical margin between boxes */
+    text-align: center; /* Center text horizontally */
+   
+    line-height: 100px; /* Center text vertically in the box */
+    color: #fff; /* Text color */
+    display: block;
+  
+}
+
+.box2 {
+    width: 200px;
+    height: 100px;
+    background-color: #007bff; /* Box background color */
+    margin: 10px 0; /* Vertical margin between boxes */
+    text-align: center; /* Center text horizontally */
+    display: block; /* Stack boxes vertically */
+    line-height: 100px; /* Center text vertically in the box */
+    color: #fff; /* Text color */
+}
+
+.container {
+    height: 70%; /* Adjust the height as needed */
+    background-color: #e0e0e02c;
+    border: 1px solid #333;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    overflow: auto; /* Add scrollbars if the content exceeds the container height */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Add drop shadow */
+   font-size:300%;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.608);
+   display: block;
+  }
+
+
+
+  .container1 {
+
+    text-align: center;
+ 
+   font-size:500%;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.608);
+   display: block;
+   margin: 50px;
+
+  }
+
+
+  
+.gif-container img {
+    border: 0px solid #000; /* Border for the GIF */
+    /* Additional styles for the GIF */
+    position: relative;
+    
+  
+  }
+.gif-container {
+  position: relative;
+  
+  left: 0;
+  width: 100%;
+  /* Additional styling for .gif-container */
+  text-align: center;
+
+
+
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto  ;
+    height: 30%; /* Adjust the height as needed */
+    max-height: 30%;
+    min-height: 30%;
+    max-width: 80%;
+    background-color: #e0e0e02c;
+    left: 10%;
+ 
+    position: relative;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    overflow: auto; /* Add scrollbars if the content exceeds the container height */
+    
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Add drop shadow */
+   font-size:300%;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.608);
+   gap: 20px;
+
+  }
+
+  .grid-container2 {
+    width: 750px;
+  aspect-ratio: 3/1;
+ 
+
+  margin: auto;
+  
+  margin-right: 30%;
+  
+
+  
+  display: grid;
+  grid-template-columns: auto auto auto  ;
+ 
+  position: relative;
+  height: 800px;
+  margin-bottom: 90px;
+  
+  
+  
+  }
+  
+  .grid-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 25%;
+    margin-left: 100px;
+
+   
+  }
+
+  .bottom {
+    display: grid;
+    position: relative;
+    height: 40%; /* Adjust the height as needed */
+    max-height: 90%;
+    min-height: 50%;
+    max-width: 80%;
+    background-color: #e0e0e02c;
+    left: 10%;
+    margin: 10px;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Add drop shadow */
+   font: size 100%;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.608);
+   gap: 20px;
+ 
+
+  }
+
+
+
+
+  
+/* Media query for iPhones */
+@media screen and (max-width: 768px) {
+    .container1 {
+        width: 100%; /* Take up the full width of the screen */
+        font-size: 150%; /* Reduce the font size for smaller screens */
+    }
+
+    .box {
+        width: 100%; /* Take up the full width of the screen */
+        font-size: 150%; /* Reduce the font size for smaller screens */
+    }
+   
+
+}

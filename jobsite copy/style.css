@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('images/sun.png'); /* Corrected the URL */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 0;
+
+}
+
+.container {
+  width: 400px; /* Adjust the width as needed */
+  height: 70%; /* Adjust the height as needed */
+  background-color: #e0e0e02c;
+  border: 1px solid #333;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  overflow: auto; /* Add scrollbars if the content exceeds the container height */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Add drop shadow */
+ font-size: large;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.608);
+}
+
+.new-container {
+  width: 400px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  background-color: #e0e0e0;
+  border: 1px solid #333;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Add drop shadow */
+}
+
+.container3 {
+  position: fixed;
+  top: 30;
+  left: 0;
+  width: 100%;
+  /* Additional styling for .container3 */
+  text-align: center;
+  pointer-events: none; 
+ 
+}
+
+.containergif {
+  margin: 20px; /* Add margin for spacing between containers */
+  background-color: #fff; /* Background color for the container */
+  padding: 20px; /* Add padding to separate the content from the border */
+  text-align: center; /* Center content in the container */
+}
+
+.gif-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* Additional styling for .gif-container */
+  text-align: center;
+  padding: 10px;
+}
+.ads {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* Additional styling for .gif-container */
+  text-align: center;
+  padding: 10px;
+}
+.gif-container img {
+  border: 0px solid #000; /* Border for the GIF */
+  /* Additional styles for the GIF */
+}
+
+.title-container {
+  position: fixed;
+  top: 0;
+  left: 50% hvw;
+  width: 70%;
+  height: auto;
+  /* Additional styling for .gif-container */
+  text-align: center;
+  padding: 5%;
+  text-transform: capitalize;
+  font-size:xx-large;
+  background-color: rgba(0, 0, 0, 0.047);
+}
+
+
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
+
