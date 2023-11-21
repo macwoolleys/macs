@@ -5,13 +5,44 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
     position: relative;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
+figure {
+ 
+
+    text-align: center;
+    
+    font-size: 30%;
+    text-indent: 0;
+
+    caption-side: top;
+  }
+
+.container11 {
+
+    text-align: center;
+    text-align: center;
+   
+    font-size: smaller;
+    text-indent: 0;
+   font-size:500%;
+   font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.608);
+   display: block;
+   margin: 50px;
+   top:0%;
+   position: absolute;
+   caption-side: top;
+   
+
+  }
 
 .gifs-container1 {
     position: absolute;
@@ -22,7 +53,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    z-index: 1;
+    z-index: 100;
 }
 .gifs-container {
     position: absolute;
@@ -33,7 +64,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    z-index: 1;
+    z-index: 100;
 }
 .gifs-container3 {
     position: absolute;
@@ -82,14 +113,19 @@ body {
 
 .centered-content {
     text-align: center;
-    font-size: 150%;
+    font-size: 250%;
     z-index: 3;
     margin: 0 140px 10px;
-    top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    top: 300px;
+    background-color: rgb(255, 254, 201);
     position: absolute;
-    line-height: 50px;
-    text-shadow: 10px 26px 10px black ;
-   
+    line-height: 70px;
+    text-shadow: 10px 32px 10px rgba(0, 0, 0, 0.708) ;
+    box-shadow: 5px 50px 50px 40px rgb(255, 254, 199);
+    
+    
 }
 
 
