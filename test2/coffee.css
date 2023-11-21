@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("images/coffee.gif"), url("images/coffee.gif"),url("images/coffee.gif");
+    background-repeat:repeat-y, repeat-y, repeat-x;
+    background-position: right 10px, left 10px;
+    background-size: 10%,10%;
+
+    position: relative;
+    height: 100vh;
+    padding: 10% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+figure {
+ 
+
+    text-align: center;
+    
+    font-size: 30%;
+    text-indent: 0;
+
+    caption-side: top;
+  }
+
+.container11 {
+    text-align: center;
+    text-align: center;
+
+    font-size: smaller;
+    text-indent: 0;
+   font-size:500%;
+   font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.608);
+   display: block;
+   margin: 130px;
+   margin-bottom: 100px;
+   top:0%;
+   position: absolute;
+   caption-side: top;
+ 
+   
+
+  }
+
+.gifs-container1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 100;
+}
+.gifs-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 100;
+}
+.gifs-container3 {
+    position: absolute;
+   
+    top: 0;
+    height: 100%;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 1;
+}
+
+
+.left-gif,
+.right-gif {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+}
+
+
+.sources    {
+
+    text-align: center ;
+    font-size: 150%;
+    z-index: 3;
+    margin: 0 140px 10px;
+    top: 100px;
+    position: absolute;
+    line-height: 50px;
+    text-shadow: 10px 26px 10px black ;
+}
+
+.bottompage {
+    text-align: center;
+    font-size: 150%;
+    z-index: 3;
+    margin: 0 140px 10px;
+  bottom: 100px;
+    position: fixed;
+    line-height: 50px;
+    text-shadow: 10px 26px 10px black ;
+
+}
+
+.centered-content {
+    text-align: center;
+    font-size: 250%;
+    z-index: 3;
+    margin: 0 140px 10px;
+   
+    top: 300px;
+    background-color: rgb(255, 254, 201);
+    position: absolute;
+    line-height: 70px;
+    text-shadow: 10px 32px 10px rgba(0, 0, 0, 0.708) ;
+    box-shadow: 5px -10px 50px 40px rgb(255, 254, 199);
+        margin-top:90px;
+    
+}
+
+
+
+
+
+
+  
+/* Media query for iPhones */
+@media screen and (max-width: 768px) {
+    .container1 {
+        width: 100%; /* Take up the full width of the screen */
+        font-size: 150%; /* Reduce the font size for smaller screens */
+    }
+
+    .box {
+        width: 100%; /* Take up the full width of the screen */
+        font-size: 150%; /* Reduce the font size for smaller screens */
+    }
+}
