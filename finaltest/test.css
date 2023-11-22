@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    background-image: url('images/sun.png'); /* Corrected the URL */
+    background-image: url('images/sun\ copy.png'); /* Corrected the URL */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -58,6 +58,7 @@ body {
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.608);
    display: block;
+  
   }
 
 
@@ -73,11 +74,11 @@ body {
    display: block;
    margin: 50px;
    background-color: rgba(0, 0, 0, 0.16);
-  
+
   }
+ 
 
 
-  
 .gif-container img {
     border: 0px solid #000; /* Border for the GIF */
     /* Additional styles for the GIF */
@@ -164,6 +165,7 @@ body {
    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.608);
    display: block;
    margin: 50px;
+   margin-bottom: 150px;
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Add drop shadow */
 
   }
