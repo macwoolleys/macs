@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+   
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    image-rendering: optimizeSpeed;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+.start {
+    position: absolute;
+  
+    
+    animation: slideVert2 5.4s linear alternate-reverse infinite, slideHori2 4.78s linear alternate-reverse infinite, colorChange 30s linear infinite; 
+    z-index: 5;
+  
+  
+  }
+  
+  .this4 {
+    position: absolute;
+ 
+    color: blue;
+    
+    animation: slideVert 1.1s linear alternate infinite, slideHori 1.3s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: 100s -30s;
+    z-index: 200;
+  }
+
+  .this5 {
+    position: absolute;
+ 
+    color: blue;
+    
+    animation: slideVert 1.6s linear alternate infinite, slideHori 1.78s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -40s;
+    z-index: 200;
+  }
+
+  .this6 {
+    position: absolute;
+ 
+    color: blue;
+    
+    animation: slideVert 1.3s linear alternate infinite, slideHori 1.78s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -4s;
+    z-index: 200;
+  }
+
+  .this7 {
+    position: absolute;
+ 
+    color: blue;
+    
+    animation: slideVert 1.23s linear alternate infinite, slideHori 1.38s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -400s;
+    z-index: 200;
+  }
+
+  .this8 {
+    position: absolute;
+ 
+    color: blue;
+    
+    animation: slideVert 1.2s linear alternate infinite, slideHori 1.8s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -4000s;
+    z-index: 200;
+  }
+
+  .this9 {
+    position: absolute;
+ 
+    color: blue;
+    
+    animation: slideVert 1.6s linear alternate infinite, slideHori 1.78s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -40000s;
+    z-index: 200;
+  }
+  .this10 {
+    position: absolute;
+ 
+    color: blue;
+    
+    animation: slideVert 1.69s linear alternate infinite, slideHori 1.21s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -490000s;
+    z-index: 200;
+  }
+  .this11 {
+    position: absolute;
+ 
+    color: blue;
+    
+    animation: slideVert 1.69s linear alternate infinite, slideHori 1.21s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -493000s;
+    z-index: 200;
+  }
+
+  .this12 {
+    position: absolute;
+ 
+    color: blue;
+    
+    animation: slideVert 1.69s linear alternate infinite, slideHori 1.21s linear alternate infinite, colorChange 30s linear infinite;
+    animation-delay: -491000s;
+    z-index: 200;
+  }
+
+
+  .bouncy {
+    z-index: 200;
+    position: fixed;
+    display: block;
+    -webkit-user-select: none;
+    
+    
+
+  }
+
+  .bouncy2 {
+    z-index: 200;
+    position: fixed;
+    display: block;
+    -webkit-user-select: none;
+
+
+  }
+
+  .bouncy3 {
+    z-index: 200;
+    position: fixed;
+    display: block;
+    -webkit-user-select: none;
+ 
+
+  }
+
+  .bouncy4 {
+    z-index: 200;
+    position: fixed;
+    display: block;
+    -webkit-user-select: none;
+   
+
+  }
+
+  .bouncy5 {
+    z-index: 200;
+    position: fixed;
+    display: block;
+    -webkit-user-select: none;
+   
+
+  }
+
+  .bouncy6 {
+    z-index: 200;
+    position: fixed;
+    display: block;
+    -webkit-user-select: none;
+   
+
+  }
+
+  @keyframes slideVert {
+    from {
+      top: -100px;
+    }
+    to {
+      top: calc(100vh - 700px)  ;
+    }
+  }
+  @keyframes slideHori {
+    from {
+      left: -150px;
+    }
+    to {
+      left: calc(100vw - 700px);
+    }
+
+
+      img {
+        animation: resizeImages 1s ease-in-out 1s forwards;
+    }
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 50%;
+    }
+    .popup {
+        width: 50%;
+    }
+}
